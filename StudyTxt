@@ -1,6 +1,11 @@
 
+	
+	git clone https://xxx //将github网上的仓库下载项目
+	
 	git init //将当前路径设置为仓库
 	
-	git add 文件 //将文件添加到仓库中
+	git add 文件 //将文件添加到缓存区
 	
-	git commit //将仓库提交到 github 网站上
+	git commit //将缓存去提价到仓库
+	
+	git push //将仓库发布到github账号上

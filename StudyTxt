@@ -1,0 +1,6 @@
+
+	git init //将当前路径设置为仓库
+	
+	git add 文件 //将文件添加到仓库中
+	
+	git commit //将仓库提交到 github 网站上

@@ -1,4 +1,5 @@
 
+	----------------------------------------------------------------基本指令
 	
 	git clone https://xxx //将github网上的仓库下载项目
 	
@@ -22,3 +23,31 @@
 	git reset --hard HEAD^^ //回退两个版本
 	git reset --hard HEAD~100 //回退100个版本
 	git reset --hard 3628164  //回退或前进到某个commit id 版本
+	
+	git checkout -- file //回滚某个文件（如果缓存区有该文件则从缓存区回滚，否则从仓库回滚）
+	
+	git rm file //删除文件，同时需要commit提交
+	
+	----------------------------------------------------------------合并分支相关指令
+	
+	git checkout -b name //创建一个name分支，并切换到该分支
+	
+	git branch name      //创建分支
+	
+	git branch -d name   //删除一个分支
+	
+	git checkout name    //切换分支 
+	
+	git branch  //查看分支，当前分支用*标识
+	
+	git merge name //合并指定分支到当前分支，可能存在冲突需要解决，需要手动解决冲突。
+	
+	git merge --no-ff -m "分支提交描述" name   //--no-ff参数，表示禁用Fast forward，好处是可以查看分支提交的log
+	
+	
+	
+	
+	
+	
+	
+	

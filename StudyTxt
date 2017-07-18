@@ -9,3 +9,7 @@
 	git commit //将缓存去提价到仓库
 	
 	git push //将仓库发布到github账号上
+	
+	git status //查看当前工作区的状态（新增，删除，修改...）
+	
+	git diff 文件 //对比文件不同之处

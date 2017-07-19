@@ -44,7 +44,7 @@
 	
 	git merge --no-ff -m "分支提交描述" name   //--no-ff参数，表示禁用Fast forward，好处是可以查看分支提交的log
 	
-	
+	-----------------------
 	
 	
 	

@@ -34,7 +34,9 @@
 	
 	git branch name      //创建分支
 	
-	git branch -d name   //删除一个分支
+	git branch -d name   //删除一个已经合并的分支
+	
+	git branch -D name   //强制删除一个没有合并的分支
 	
 	git checkout name    //切换分支 
 	

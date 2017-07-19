@@ -44,7 +44,11 @@
 	
 	git merge --no-ff -m "分支提交描述" name   //--no-ff参数，表示禁用Fast forward，好处是可以查看分支提交的log
 	
-	-----------------------
+	git stash //“储存”当前的工作现场，并退回最新的一个commit版本。
+	
+	git stash list //获取被“储存”的工作现场
+	
+	
 	
 	
 	
